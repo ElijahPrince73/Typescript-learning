@@ -1,15 +1,14 @@
-function add(n1: number,n2: number, showResult: boolean, phrase: string) {
-    const total = n1 + n2
-    if (showResult) {
-        console.log(phrase + total)
-    } else {
-        return total
-    }
+const person = {
+    name: 'Eli',
+    age: 24,
+    hobbies: ['Sports', 'Cooking']
 }
+let favoriteActivities: string[];
+favoriteActivities = ['Sports']
 
-const number = 2
-const number2 = 2
-const printResult = true
-const resultPhrase = 'Result is: '
+console.log(person.name)
 
-add(number, number2, printResult, resultPhrase);
+for (let activitie = 0; activitie < person.hobbies.length; activitie++) {
+    const element = person.hobbies[activitie];
+    console.log(element)
+}
