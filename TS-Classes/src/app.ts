@@ -23,7 +23,7 @@ const accounting = new Department('Accounting');
 
 accounting.addEmployee("Max")
 accounting.addEmployee("bob");
-accounting.employees[2] ='ss'
+//accounting.employees[2] ='ss'
 
 accounting.printEmployeeInfo()
 
